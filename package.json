@@ -1,0 +1,31 @@
+{
+  "name": "nbuseful",
+  "version": "0.0.0",
+  "description": "Collection of useful directives, services, and other components useful in projects based on AngularJS",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nbmh/nbUseful.git"
+  },
+  "keywords": [
+    "angular",
+    "library",
+    "directives",
+    "services",
+    "filters"
+  ],
+  "author": "Michał Hałas <info@michalhalas.pl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbmh/nbUseful/issues"
+  },
+  "homepage": "https://github.com/nbmh/nbUseful#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-stripcomments": "^0.5.0"
+  },
+  "dependencies": {
+    "ng-storage": "^0.3.2"
+  }
+}
