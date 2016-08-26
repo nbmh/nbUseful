@@ -837,10 +837,10 @@
         autoHeight = function() {
           var height = currentHeight();
 
-          element.style.height = 'auto';
+          el.style.height = 'auto';
           var autoHeight = currentHeight();
 
-          element.style.height = height + 'px';
+          el.style.height = height + 'px';
           currentHeight();
 
           return autoHeight;
@@ -849,7 +849,7 @@
         $scope.$watch(attributes.collapse, function(collapse) {
           setTimeout(function() {
             var height = collapse ? 0 : autoHeight();
-            element.style.height = height + 'px';
+            el.style.height = height + 'px';
             element.toggleClass('collapsed', collapse);
           }, 0);
         });
