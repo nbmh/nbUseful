@@ -1,6 +1,6 @@
 {
   "name": "nbuseful",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Collection of useful directives, services, and other components useful in projects based on AngularJS",
   "repository": {
     "type": "git",
